@@ -1,1 +1,10 @@
-this is my answer
+1.  grep -inE "^z" cities.txt
+2.  grep -inE "*gan\>" cities.txt
+3.  grep -inE "^[ADE]" cities.txt
+4.  grep -inE "\<.ar" cities.txt
+5.  grep -inE /^[^c]/ cities.txt
+6.  egrep "[^ ]{14}$" cities.txt
+7.  grep "^B" cities.txt | wc -l
+8.  grep -o "d" cities.txt | wc -l
+9.  grep -iE "([a-z])\1*([a-z])\2\>" cities.txt
+10. grep -inE ^([a-z])([a-z])[a-z]\2\1 cities.txt
