@@ -7,4 +7,4 @@
 7.  grep "^B" cities.txt | wc -l
 8.  grep -o "d" cities.txt | wc -l
 9.  grep -iE "([a-z])\1*([a-z])\2\>" cities.txt
-10. grep -inE ^([a-z])([a-z])[a-z]\2\1 cities.txt
+10. grep -iE "^([a-z])([a-z])[a-z]\2\1\>" cities.txt
